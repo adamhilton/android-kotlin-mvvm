@@ -1,4 +1,4 @@
-package net.adamhilton.android_kotlin_mvvm
+package net.adamhilton.androidkotlinmvvm
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle

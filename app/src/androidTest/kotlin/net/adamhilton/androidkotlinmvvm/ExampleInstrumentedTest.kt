@@ -1,4 +1,4 @@
-package net.adamhilton.android_kotlin_mvvm
+package net.adamhilton.androidkotlinmvvm
 
 import android.content.Context
 import android.support.test.InstrumentationRegistry
