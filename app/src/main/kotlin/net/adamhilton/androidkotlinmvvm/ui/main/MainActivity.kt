@@ -1,7 +1,8 @@
-package net.adamhilton.androidkotlinmvvm
+package net.adamhilton.androidkotlinmvvm.ui.main
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import net.adamhilton.androidkotlinmvvm.R
 
 class MainActivity : AppCompatActivity() {
 

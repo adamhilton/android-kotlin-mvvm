@@ -10,7 +10,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context="net.adamhilton.androidkotlinmvvm.MainActivity">
+    tools:context="net.adamhilton.androidkotlinmvvm.ui.main.MainActivity">
 
     <TextView
         android:id="@+id/data"
