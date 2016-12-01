@@ -2,6 +2,7 @@ apply plugin: 'com.android.application'
 apply plugin: 'kotlin-kapt'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
+
 android {
     compileSdkVersion 25
     buildToolsVersion "25.0.0"
@@ -26,6 +27,9 @@ android {
     }
 }
 
+final dagger_version = '2.7'
+final butterknife_version = '8.4.0'
+
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
@@ -35,6 +39,14 @@ dependencies {
     compile 'com.android.support:appcompat-v7:25.0.1'
 
     compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+
+    kapt "com.google.dagger:dagger-compiler:$dagger_version"
+    compile "com.google.dagger:dagger:$dagger_version"
+
+    provided 'javax.annotation:jsr250-api:1.0'
+
+    compile "com.jakewharton:butterknife:$butterknife_version"
+    kapt "com.jakewharton:butterknife-compiler:$butterknife_version"
 
     testCompile 'junit:junit:4.12'
 }
