@@ -1,4 +1,4 @@
-# an example kotlin android app for leaning mvvm with rxjava 2 
+# an example kotlin android app using mvvm with rxjava 2
 
 ### made using
 - kotlin
